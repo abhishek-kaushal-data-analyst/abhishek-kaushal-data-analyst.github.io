@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | About</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    #about {
+      background-image: url('Images/about/about background.jpg'); /* Use relative path */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+	.card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Header -->
+  <header class="bg-white shadow-md py-6">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My Data Analytics Portfolio</h1>
+      <nav class="space-x-4">
+        <a href="#about" class="text-gray-700 hover:text-blue-600">About</a>
+        <a href="#projects" class="text-gray-700 hover:text-blue-600">Projects</a>
+		<a href="#skills" class="text-gray-700 hover:text-blue-600">Skills</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 px-4 text-gray-800 bg-opacity-90 backdrop-blur-sm">
+    <div class="bg-white bg-opacity-80 rounded-xl shadow-lg py-12 px-6 max-w-4xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-10">About</h2>
+      <div class="flex justify-center mb-8">
+        <img
+          src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\about\header image.jpeg"
+          alt="Profile Picture"
+          class="w-60 h-60 rounded-full border-4 border-gray-300 object-cover"
+        />
+      </div>
+      <div class="max-w-xl mx-auto text-center space-y-4 text-base sm:text-lg leading-relaxed">
+        <p>
+          I'm a data-driven professional passionate about transforming complex information into actionable insights. With a background in analytics, dashboarding, and stakeholder engagement, I thrive on helping organizations make smarter, faster decisions.
+        </p>
+        <p>
+          My expertise spans tools like Power BI, SQL, Python, and Tableau, and I enjoy creating visually compelling stories that drive impact. Whether working independently or leading a team, I bring curiosity, clarity, and a collaborative spirit to every project.
+        </p>
+      </div>
+    </div>
+  </section>
+
+<!-- Projects Section -->
+  <section id="projects" class="py-16 px-4 bg-gray-100">
+    <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
+    <div class="container">
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <!-- Project 1 -->
+        <div class="card" style="width: 22rem;">
+          <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\Data Visualization.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-outline-primary btn-sm me-2">Blog Post</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="card" style="width: 22rem;">
+          <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\Excel.png" class="card-img-top" alt="Project 2">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-outline-primary btn-sm me-2">Blog Post</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="card" style="width: 22rem;">
+          <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\SQL.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+            <div class="mt-auto">
+              <a href="#" class="btn btn-outline-primary btn-sm me-2">Blog Post</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Skills Section -->
+  <section id="skills" class="py-16 px-4 bg-white">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <!-- Skill 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\Python.jpg" class="card-img-top mx-auto p-3" style="height: 100px; width: auto; object-fit: contain;" alt="Python">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Python</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+              <a href="#" class="mt-auto btn btn-link">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <!-- Skill 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\Data Visualization.jpg" class="card-img-top mx-auto p-3" style="height: 100px; width: auto; object-fit: contain;" alt="Data Visualization">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Data Visualization</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+              <a href="#" class="mt-auto btn btn-link">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <!-- Skill 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\SQL.jpg" class="card-img-top mx-auto p-3" style="height: 100px; width: auto; object-fit: contain;" alt="SQL">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">SQL</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+              <a href="#" class="mt-auto btn btn-link">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+        <!-- Skill 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center">
+            <img src="C:\Users\amols\OneDrive\Desktop\Projects\Portfolio Website\Images\skills\Excel.png" class="card-img-top mx-auto p-3" style="height: 100px; width: auto; object-fit: contain;" alt="Data Storytelling">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Data Storytelling</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</p>
+              <a href="#" class="mt-auto btn btn-link">Link to course or bootcamp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-16 px-4 bg-dark text-white">
+  <div class="container text-center">
+    <h2 class="text-3xl font-bold mb-5">Contact Me</h2>
+    <div class="row justify-content-center mb-4">
+      <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+        <i class="bi bi-envelope me-2"></i>
+        <span>akaushal92@gmail.com</span>
+      </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-center">
+        <i class="bi bi-telephone me-2"></i>
+        <span>+1 (204)869-3896</span>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <a href="https://www.linkedin.com/in/abhishek-kaushal/" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn">
+        <img src="icons/linkedin.png" alt="LinkedIn" width="24" height="24">
+      </a>
+      <a href="#" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter">
+        <img src="icons/twitter.png" alt="Twitter" width="24" height="24">
+      </a>
+      <a href="#" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub">
+        <img src="icons/github.png" alt="GitHub" width="24" height="24">
+      </a>
+      <a href="#" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Medium">
+        <img src="icons/medium.png" alt="Medium" width="24" height="24">
+      </a>
+      <a href="#" class="btn btn-pink rounded-circle p-3" data-bs-toggle="tooltip" data-bs-placement="top" title="YouTube">
+        <img src="icons/youtube.png" alt="YouTube" width="24" height="24">
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center py-6">
+  <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+</body>
+
+</html>
